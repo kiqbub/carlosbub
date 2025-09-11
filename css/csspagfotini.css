@@ -1,0 +1,12 @@
+.fotoinicial {
+  
+    height: 515px;
+    background-color: rgb(163, 163, 247);
+    background-image: url("../img/fotoprincipal.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border:outset 5px rgb(170, 170, 240); 
+    padding:none;
+ 
+}

@@ -1,0 +1,97 @@
+            @import url('https://fonts.googleapis.com/css2?family=Sirivennela&display=swap');
+            
+            body{
+
+                background-color: white;
+                margin: 1%;
+                cursor: auto;
+                user-select: none;
+                                            }
+
+            h1{
+
+                color: #7d3737; 
+                text-align: center; 
+                font-size: 45px; 
+                text-decoration:solid; 
+                font-family:Arial, Helvetica, sans-serif;
+                
+            }
+            h2{
+                color: black; text-align: left; 
+                font-size: 25px; 
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                border: inset brown;
+                border-radius: 30px;
+                background-color: bisque;
+                text-align: center;
+                margin: 3% 10% 1% 5%; 
+                padding: 0%;
+              
+                
+            }
+            p {
+
+                color: rgba(30, 28, 28, 0.766);
+                font-size: 16px;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight: 100;
+                line-height: 1.50;
+                text-indent: 5%;
+                word-spacing: 1px;
+                letter-spacing: 0px;  
+                text-transform: none;
+                text-align: justify;
+
+
+            }
+            span {
+                text-align: center;
+            }    
+            h4, h5, h6 {
+                color: chocolate;
+            }
+
+            .ploren{
+                text-align: justify;
+                background-color: blue;
+                font-family: 'Times New Roman', Times, serif;
+                color: aliceblue;
+                font-size: 16px;
+                text-transform:none;
+                font-weight:lighter;
+                            }
+            #test{
+                background-color: yellow;
+                color: red;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14;
+                text-transform: uppercase;
+                font-weight: bold;
+                text-align: center;
+                text-indent: 0%;
+                border: 10px groove red; padding:10px;
+                width: 50%; 
+                margin: auto;
+                
+            }
+
+            .botao{
+                background-color: gray;
+                border-radius: 30px;
+                padding: 5px;
+                margin-top: 5px;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 5px;
+                text-decoration: none;
+
+            }
+            .botao:hover{
+                background-color: orangered;
+                border: dotted 2px greenyellow ;
+                color: white;
+            }
+            
+
+            

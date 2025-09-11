@@ -1,0 +1,20 @@
+Atividade:
+
+Desenvolver site em html, contendo um arquivo index.html, o qual contém menus (<ul></ul> ou <table></table>) com links para carregar páginas em um iframe na mesma página, sendo o s links:
+
+2 páginas, pelo menos, na própria pasta, com recurso para voltar a página inicial em cada uma das páginas mostradas no iframe.
+
+Na página Inicial (que aparece no iframe) deve conter: imagens, links absolutos, links de downloads e textos conforme criatividade, vídeos e/ou áudios.
+
+Na página 2 espero encontrar tables, listas ordenadas e desordenadas (<ul> ou <ol) e demais texto conforme criatividade.
+
+Deve haver um link para carregar (no iframe) uma página externa, como youtube ou google maps.
+
+E um link de contato.
+
+Hospedar no servidor 18.221.250.70, utilizando o recurso sftp, conforme instrução em sala, usuário admin e acesso por ppk.
+
+Crie uma pasta com seu nome no servidor ftp e carregue sua estrutura de arquivos e diretórios para lá.
+
+É livre a alteração do conteúdo já postado, a seu critério.
+
