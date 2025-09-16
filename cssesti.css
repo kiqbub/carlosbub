@@ -1,0 +1,214 @@
+body{
+    background-color: #217021;
+}
+
+li{
+    display:inline-block;
+    text-align: left;
+    width: 100px;
+           }
+
+.div1{
+    background-color: #1b5601;
+    border-top: greenyellow 5px double;
+    border-right: greenyellow 5px double;
+    border-radius: 25px;
+    text-align: center;
+}
+
+hr{
+    color: #6bf317;
+    border-top: 4px greenyellow double;
+    border-left: 4px greenyellow double;
+    border-radius: 30px;
+}
+
+
+h1{
+    display: inline-block;
+    border-bottom: 5px #6bf317 double;
+    color: white;
+    background-color: #07901b;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+}
+h2{
+    display: inline-block;
+    border-top: 5px rgb(107, 243, 23) double;
+    color: white;
+    background-color: rgb(7, 144, 27);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+a.botao{
+    text-decoration: none;
+    border-right: 5px greenyellow double;
+    border-left: 5px greenyellow double;
+    background-color:#07901b;
+    color: white;
+    padding: 08px;
+    border-radius: 20px;
+    font-size: 18px;
+
+   }
+
+a.botao:hover{
+
+   text-decoration: none;
+    border-right: 5px #07901b double;
+    border-left: 5px #07901b double;
+    background-color:greenyellow;
+    color: black;
+    padding: 06px;
+    border-radius: 15px;
+}
+a.botao:active{
+    text-decoration: none;
+    border-right: 10px #07901b double;
+    border-left: 10px #07901b double;
+    background-color:greenyellow;
+    color: black;
+    padding: 06px;
+    border-radius: 17px;
+    font-size: 16px;
+}
+
+
+a.botao1{
+    text-decoration: none;
+    border-right: 5px greenyellow double;
+    border-left: 5px greenyellow double;
+    background-color:#07901b;
+    color: white;
+    padding: 05px;
+    border-radius: 15px;
+    font-size: 16px;
+    
+
+    }
+a.botao1:hover{
+
+    text-decoration: none;
+    border-right: 5px #07901b double;
+    border-left: 5px #07901b double;
+    background-color:greenyellow;
+    color: black;
+    padding: 06px;
+    border-radius: 15px;
+}
+a.botao1:active {
+
+    text-decoration: none;
+    border-right: 10px #07901b double;
+    border-left: 10px #07901b double;
+    background-color:greenyellow;
+    color: black;
+    padding: 04px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+p{
+    color: white;
+    text-align: justify;
+    font-size: 16px;
+    text-indent: 40px;
+    font-style: unset;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+.div2{
+    background-color: #1b5601;
+    border-left: greenyellow 5px double;
+    border-radius: 25px;
+    text-align: center;
+    
+    
+}
+
+.container{
+
+        display: flex;
+        width: 800;
+        height: 900;
+        background-color:#217021;
+        margin: 5px;
+        text-align: center;
+        position: relative;
+        border: white solid 3px;
+        overflow: auto;
+        align-items: center;
+
+
+}
+
+.div03{
+    
+    display: inline-block;
+    background-color: #1b5601;
+    border-left: greenyellow 5px double;
+    border-radius: 25px;
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    padding: 1%;
+    margin: 1%;
+
+
+}
+
+.footer01{
+    background-color: #1b5601;
+    border-bottom: greenyellow 5px double;
+    border-left: greenyellow 5px double;
+    border-radius: 25px;
+    text-align: center;
+    color:white;
+    padding: 8px;
+    display: inline;
+    margin-bottom: 5px;
+    float: left;
+    
+}
+
+.footer02{
+    background-color: #1b5601;
+    border-bottom: greenyellow 5px double;
+    border-right: greenyellow 5px double;
+    border-radius: 25px;
+    text-align: center;
+    color:white;
+    padding: 5px;
+    display: inline;
+    margin-bottom: 5px;
+    float: right;
+   
+}
+
+a.linkfoot{
+
+    text-decoration: underline;
+    color: white;
+    padding: 05px;
+    font-size: 16px;
+    
+
+    }
+a.linkfoot:hover{
+
+    text-decoration: none;
+    color: greenyellow;
+    padding: 06px;
+    font-size: 18px;
+}
+    
+a.linkfoot:active {
+
+    text-decoration: none;
+    color: #217021;
+    font-size: 16px;
+    
+}
