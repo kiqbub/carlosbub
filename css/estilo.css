@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Sirivennela&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    background-image:linear-gradient(45deg, rgb(197, 197, 248), white );
+    
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-image:linear-gradient(90deg,green,white, yellow);
+    justify-content:center;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    border-bottom: green 3px solid;
+}
+
+.logo{
+    flex:30%;
+    margin-left:10%;
+ /*border:1px solid red;*/  
+  text-align: left;
+  
+}
+
+.logo h1{
+    font-family: "Kablammo", system-ui;
+    color: yellow;
+    text-shadow: 5px 5px 5px rgb(20, 21, 20);
+    font-size:48px;
+    text-align: left
+}
+
+.menu{
+    flex:50%;
+   /*border:1px solid green;*/
+    text-align:right;
+    padding:20px;
+}
+
+.menu a{
+    color:#180F4A;
+    text-decoration: none;
+    font-size:20px;
+    padding:20px 16px; 
+}
+
+.menu a:hover{
+    color: white;
+    transition: 0.4s;
+    background-color: green;
+    box-shadow: 0 4px 8px black;
+    border-radius: 18px;
+    padding: 10px;
+}
+
+#botao{
+    background: green;
+    padding: 10px 25px;
+    color:white;
+    border-radius:5px;
+    margin-right:10%;
+    margin-left:5%;
+}
+
+#botao:hover{
+    border:none;
+    background: white;
+    color: green;
+}
+
+.header{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top:150px;
+    
+}
+
+.headline{
+    margin-left:10%;
+    flex:40%;
+    
+    /* border:1px solid black; */
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size:20px;
+    color:#180F4A;
+    padding:0;
+    margin:0;
+}
+
+.headline p{
+    color:rgb(5, 5, 89);
+    text-align: justify; 
+    text-indent: 50px; 
+}
+
+.contact-btn{
+    background: yellow;
+    padding: 10px 25px;
+    color: black;
+    border-radius: 15px;
+    border: green 2px solid;
+    margin-left:1%;
+    text-decoration: none;
+}
+
+.contact-btn:hover{
+   color: white;
+    transition: 0.4s;
+    background-color: green;
+    box-shadow: 0 4px 8px black;
+    border-radius: 18px;
+   
+}
+
+
+.img-headline{
+    margin-right:10%;
+    flex:40%;
+    /* border:1px solid deeppink; */
+    text-align:center;
+}
+
+section{
+    display: inline-block;
+    margin-top:80px;
+    /* border:1px solid black; */
+    margin-left:5%;
+    margin-right:5%;
+    padding:5%;
+    text-align: center;
+    
+}
+
+
+.servicos{
+    display: inline-block;
+    margin-top:5%;
+}
+
+#serv{
+    width:100%;
+    font-size:50px;
+    margin:0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color:#180F4A;
+
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding:20px;
+    margin:1%;
+    background-color: green;
+    border:3px solid yellow;
+    color: white;
+    border-radius:10px;
+    box-shadow: 0px 08px 20px green;
+    cursor:pointer;
+}
+
+.texto-oculto{
+    display: none;
+}
+
+.card:hover{
+    background: white;
+    color:rgb(5, 5, 89);
+    padding:40px;
+    border:3px solid green;
+   border-radius:10px;
+    box-shadow: 2px 4px 20px yellow;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display:none;
+}
+
+.card:hover .texto-oculto{
+    display:block;
+}
+
+footer{
+    margin-top:20px;
+    height: 200px;
+    background-image:linear-gradient(90deg,green,white, yellow);
+    text-align:center;
+    border-top:5px solid green;
+}
+
+.logo-rodape{
+    padding:0px;
+}
+
+.agencia{
+    font-family: "Kablammo", system-ui;
+    color:green;
+    font-size:48px;
+    text-align: center;
+}
+
+.whats{
+    position: fixed;
+    bottom:10px;
+    left:10px;
+      
+}
